@@ -20,10 +20,32 @@ public class Meipo implements InvocationHandler {
         return Proxy.newProxyInstance(clazz.getClassLoader(), clazz.getInterfaces(), this);
     }
 
+    /**
+     * 动态执行被代理人的方法,,并进行增强
+     */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-
+        //前置增强
+        dosomethingBefore();
         System.out.println("你的性别是" + this.target.getSex() + ",帮你找对象");
+
+        //执行被代理人方法
+        method.invoke(this.target,args);
+
+        //后置增强
+        dosomethingAfter();
+        System.out.println("滿意吗?????????");
         return null;
+    }
+
+    //前置增强
+    private void dosomethingBefore() {
+        //前置增强
+        System.out.println("方法执行前执行");
+    }
+
+    //后置增强
+    private void dosomethingAfter() {
+        System.out.println("方法执行后执行");
     }
 }
