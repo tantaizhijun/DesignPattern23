@@ -7,7 +7,7 @@ import java.lang.reflect.Proxy;
 /**
  * 代理人: 媒婆
  */
-public class Meipo implements InvocationHandler {
+public class JdkMeipo implements InvocationHandler {
 
     private Person target;
     /**
