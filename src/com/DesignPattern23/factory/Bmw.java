@@ -1,4 +1,6 @@
-package com.DesignPattern23.factory.simpleFactory.demo1;
+package com.DesignPattern23.factory;
+
+import com.DesignPattern23.factory.Car;
 
 public class Bmw implements Car {
     @Override

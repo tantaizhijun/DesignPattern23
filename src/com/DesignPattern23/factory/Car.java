@@ -1,4 +1,4 @@
-package com.DesignPattern23.factory.simpleFactory.demo1;
+package com.DesignPattern23.factory;
 
 /**
  * 产品接口

@@ -1,5 +1,9 @@
 package com.DesignPattern23.factory.simpleFactory.demo1;
 
+import com.DesignPattern23.factory.Audi;
+import com.DesignPattern23.factory.Bmw;
+import com.DesignPattern23.factory.Car;
+
 /**
  * 简单工厂: 汽车工厂
  * 缺点: 每次更改需求,,都要修改工厂方法
@@ -10,6 +14,8 @@ package com.DesignPattern23.factory.simpleFactory.demo1;
 public class SimpleFactory {
     /*
      * 实现统一管理,
+     *  但是维护起来很麻烦,,有新需求扩展,,每次都要修改下面的代码
+     *  动态配置的功能和业务逻辑混乱
      */
     public Car getCar(String name) {
         if ("BMW".equalsIgnoreCase(name)) {

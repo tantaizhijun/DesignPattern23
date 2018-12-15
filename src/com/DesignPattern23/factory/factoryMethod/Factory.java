@@ -1,6 +1,6 @@
 package com.DesignPattern23.factory.factoryMethod;
 
-import com.DesignPattern23.factory.simpleFactory.demo1.Car;
+import com.DesignPattern23.factory.Car;
 
 /**
  * 工厂接口
