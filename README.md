@@ -1,4 +1,4 @@
-### 🌼 23中java设计模式
+### 🌼 java中23种设计模式应用
 
 
 [🦋 1.代理模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/proxy)

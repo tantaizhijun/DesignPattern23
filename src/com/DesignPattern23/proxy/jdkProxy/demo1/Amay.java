@@ -1,16 +1,16 @@
-package com.DesignPattern23.proxy.jdkProxy;
+package com.DesignPattern23.proxy.jdkProxy.demo1;
 
 /**
- * 被代理人 男孩
+ * 被代理人 女孩
  */
-public class Jack implements Person {
+public class Amay implements Person {
 
-    private String sex = "男";
-    private String name = "jack";
+    private String sex = "女";
+    private String name = "amay";
 
     @Override
     public void findLove() {
-        System.out.println("我要找女孩");
+        System.out.println("我是" + this.name +",我要找高富帅男孩");
     }
 
     @Override

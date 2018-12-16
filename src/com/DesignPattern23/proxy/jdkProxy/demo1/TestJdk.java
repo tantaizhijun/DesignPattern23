@@ -1,4 +1,4 @@
-package com.DesignPattern23.proxy.jdkProxy;
+package com.DesignPattern23.proxy.jdkProxy.demo1;
 
 /**
  * 测试类
