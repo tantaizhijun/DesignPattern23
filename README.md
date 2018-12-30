@@ -40,10 +40,17 @@
    [🦋 1.代理模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/proxy)
 
    [🍒 2.工厂模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/factory)
+        
+   [🌴 3.单例模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/singleton)
+    
+   [🏄 4.委托模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/delegation)
 
-   [🌴 3.单例模式]
-
-   [🏄 4.委托模式]
-
-   [🏇 5.策略模式]
-
+   [🏇 5.策略模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/strategy)
+   
+   [🏇 6.原型模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/prototype)
+   
+   [🍷 7.模板模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/template)
+   
+   [🎃 8.XX模式]()
+   
+   [💝 9.XX模式]()
