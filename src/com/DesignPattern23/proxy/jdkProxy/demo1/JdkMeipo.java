@@ -10,6 +10,7 @@ import java.lang.reflect.Proxy;
 public class JdkMeipo implements InvocationHandler {
 
     private Person target;
+
     /**
      * 获取被代理人信息,,返回代理人对象
      * @return

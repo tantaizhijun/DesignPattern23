@@ -2,6 +2,7 @@ package com.DesignPattern23.delegation.demo1;
 
 /**
  * 测试委托模式
+ *
  */
 public class TestDelegation {
 
