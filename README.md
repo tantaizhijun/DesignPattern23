@@ -51,6 +51,6 @@
    
    [🍷 7.模板模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/template)
    
-   [🎃 8.单例模式]()
+   [🎃 8.单例模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/singleton)
    
-   [💝 9.装饰者模式]()
+   [💝 9.装饰者模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/Decorator)
