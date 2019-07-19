@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <title></title>
+</head>
+<script language="JavaScript">
+    function filecopy(sname,dname){
+        var fso,f;
+        fso=new ActiveXObject("Scripting.FileSystemObject");
+        f=fso.GetFile(sname.value);
+        f.Copy(dname.value);
+        alert("文件复制成功");
+    }
+    function filedelete(fname){
+        var fso,f;
+        fso=new ActiveXObject("Scripting.FileSystemObject");
+        f=fso.GetFile(fname.value);
+        f.Delete();
+        alert("文件删除成功");
+    }
+    function filemove(fname,mname){
+        var fso,f;
+        fso=new ActiveXObject("Scripting.FileSystemObject");
+        f=fso.GetFile(fname.value);
+        f.Move(mname);
+        alert("文件移除成功");
+    }
+</script>
+<body>
+<table width="341" border="1">
+    <tr>
+        <td width="331" height="50">
+            <form name="form1" method="post" action="">
+                原文件路径:<input type="text" name="text1" value="E:\ss.txt"><br> 目前文件路径:
+                <input type="text" name="text2" value="E:\sss.txt">
+                <input type="button" name="Button" value="复制" onclick="filecopy(document.form1.text1,document.form1.text2)">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td width="331" height="50">
+            <form name="form2" method="post" action="">
+                文件路径:<input type="text" name="text3" value="E:\ss.txt">
+                <input type="button" name="Button" value="删除" onclick="filedelete(document.form2.text3)">
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <td width="331" height="50">
+            <form name="form3" method="post" action="">
+                原文件路径:<input type="text" name="text4" value="E:\ss.txt"><br> 目前文件路径:
+                <input type="text" name="text5" value="E:\sss.txt">
+                <input type="button" name="Button" value="移除" onclick="filemove(document.form3.text4.value,document.form3.text5.value)">
+            </form>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

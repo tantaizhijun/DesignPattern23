@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.concurrent.*;
 
 /**
+ * 单一线程池
  * 使用Callable接口 进行任务延迟运行，具有返回值
  */
 public class Demo1 {
