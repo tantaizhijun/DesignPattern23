@@ -19,7 +19,9 @@ repositories {
 }
 
 dependencies {
+	compile fileTree(dir: './src/lib', include: '*.jar')
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
 
 	//quartz
 	//compile('org.springframework.boot:spring-boot-starter-quartz')
