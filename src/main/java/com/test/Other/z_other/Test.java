@@ -1,4 +1,4 @@
-package main.java.com.test.Other.z_other;
+package com.test.Other.z_other;
 
 import java.util.concurrent.Executors;
 
@@ -7,7 +7,7 @@ public class Test {
     public static void main(String[] args) {
 
 
-        Executors.newScheduledThreadPool();
+//        Executors.newScheduledThreadPool();
     }
 
     class Node {
