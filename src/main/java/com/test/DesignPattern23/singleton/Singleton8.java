@@ -25,5 +25,11 @@ public class Singleton8 {
         }
         return singleton;
     }
+
+
+    //防止序列化破坏单例，
+    private Object readResolve(){
+        return singleton;
+    }
 }
 
