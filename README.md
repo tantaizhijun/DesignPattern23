@@ -37,20 +37,20 @@
     
 #### 设计模式
     
-   [🦋 1.代理模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/proxy)
+   [🦋 1.代理模式](https://github.com/tantaizhijun/javaLearning/tree/master/src/main/java/com/test/DesignPattern23/proxy)
 
-   [🍒 2.工厂模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/factory)
+   [🍒 2.工厂模式](https://github.com/tantaizhijun/javaLearning/tree/master/src/main/java/com/test/DesignPattern23/factory)
         
-   [🌴 3.单例模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/singleton)
+   [🌴 3.单例模式](https://github.com/tantaizhijun/javaLearning/tree/master/src/main/java/com/test/DesignPattern23/singleton)
     
-   [🏄 4.委托模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/delegation)
+   [🏄 4.委托模式](https://github.com/tantaizhijun/javaLearning/tree/master/src/main/java/com/test/DesignPattern23/delegation)
 
-   [🏇 5.策略模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/strategy)
+   [🏇 5.策略模式](https://github.com/tantaizhijun/javaLearning/tree/master/src/main/java/com/test/DesignPattern23/strategy)
    
-   [🏇 6.原型模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/prototype)
+   [🏇 6.原型模式](https://github.com/tantaizhijun/javaLearning/tree/master/src/main/java/com/test/DesignPattern23/prototype)
    
-   [🍷 7.模板模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/template)
+   [🍷 7.模板模式](https://github.com/tantaizhijun/javaLearning/tree/master/src/main/java/com/test/DesignPattern23/template)
    
-   [🎃 8.单例模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/singleton)
+   [🎃 8.单例模式](https://github.com/tantaizhijun/javaLearning/tree/master/src/main/java/com/test/DesignPattern23/singleton)
    
-   [💝 9.装饰者模式](https://github.com/tantaizhijun/DesignPattern23/tree/master/src/com/DesignPattern23/Decorator)
+   [💝 9.装饰者模式](https://github.com/tantaizhijun/javaLearning/tree/master/src/main/java/com/test/DesignPattern23/Decorator)
