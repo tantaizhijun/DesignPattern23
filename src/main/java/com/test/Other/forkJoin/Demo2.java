@@ -11,6 +11,7 @@ public class Demo2 {
             MyRecursiveTask task = new MyRecursiveTask();
 
             System.out.println(task.hashCode());
+
             ForkJoinPool pool = new ForkJoinPool();
             ForkJoinTask forkJoinTask = pool.submit(task);
 
