@@ -56,5 +56,5 @@
 ### 知识点
  - 类完整的生命周期
  
-    ![图片](./imgQuote/001.jpg)
+    ![图片](https://github.com/tantaizhijun/javaLearning/blob/master/src/main/java/com/test/DesignPattern23/proxy/imgQuote/001.jpg)
    
