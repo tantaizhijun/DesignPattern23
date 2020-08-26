@@ -1,4 +1,4 @@
-package main.java.com.test.Other.z_other;
+package com.test.Other.z_other;
 
 import java.util.Stack;
 

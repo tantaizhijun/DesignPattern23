@@ -1,4 +1,4 @@
-package main.java.com.test.Other.z_search;
+package com.test.Other.z_search;
 
 /**
  * 二分查找

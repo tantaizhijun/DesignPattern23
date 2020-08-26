@@ -1,4 +1,4 @@
-package main.java.com.test.Other.z_sort;
+package com.test.Other.z_sort;
 
 import java.util.Arrays;
 
